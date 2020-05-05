@@ -25,3 +25,7 @@ yarn add webpack-fix-style-only-entries
 yarn add webpack-merge
 #+END_SRC
 
+* LeetCode Problems
+|  id | problem | file    |
+|-----+---------+---------|
+| 000 | [[https://leetcode.com/problems/two-sum/][Two Sum]] | [[src/js/p000.js][p000.js]] |
