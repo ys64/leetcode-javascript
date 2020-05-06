@@ -26,7 +26,7 @@ var addTwoNumbers = function(l1, l2) {
   let previous = null;
   let answer = null;
   while (true) {
-    if ((l1 === null || l2 === null) && carry_over === 0) {
+    if (l1 === null && l2 === null && carry_over === 0) {
       break;
     }
 
