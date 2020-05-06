@@ -19,8 +19,6 @@ function ListNode(val, next) {
  * @return {ListNode}
  */
 
-// It failed with [5],[5].
-// It is failing with [1,8],[0]
 var addTwoNumbers = function(l1, l2) {
   let carry_over = 0;
   let previous = null;
@@ -59,12 +57,28 @@ var addTwoNumbers = function(l1, l2) {
   return answer;
 };
 
-const ln1_3 = new ListNode(3, undefined);
-const ln1_2 = new ListNode(4, ln1_3);
-const ln1_1 = new ListNode(2, ln1_2);
+let ln1_3 = new ListNode(3, undefined);
+let ln1_2 = new ListNode(4, ln1_3);
+let ln1_1 = new ListNode(2, ln1_2);
 
-const ln2_3 = new ListNode(4, undefined);
-const ln2_2 = new ListNode(6, ln2_3);
-const ln2_1 = new ListNode(5, ln2_2);
+let ln2_3 = new ListNode(4, undefined);
+let ln2_2 = new ListNode(6, ln2_3);
+let ln2_1 = new ListNode(5, ln2_2);
 
 addTwoNumbers(ln1_1, ln2_1);
+
+
+
+// test case for wrong answer: [5],[5].
+ln1_1 = new ListNode(5, undefined)
+ln2_1 = new ListNode(5, undefined)
+
+addTwoNumbers(ln1_1, ln2_1)
+
+
+// test case for wrong answer: [1,8],[0]
+ln1_2 = new ListNode(8, undefined)
+ln1_1 = new ListNode(1, ln1_2)
+ln2_1 = new ListNode(0, undefined)
+
+addTwoNumbers(ln1_1, ln2_1)
