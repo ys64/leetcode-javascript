@@ -5,9 +5,9 @@ This project is created based on [[https://github.com/ys64/vue-startup][GitHub -
 
 * Command log to get started
 #+BEGIN_SRC sh
-yarn init
 rm yarn.lock
 
+yarn init
 yarn add copy-webpack-plugin
 yarn add css-loader
 yarn add html-webpack-plugin
