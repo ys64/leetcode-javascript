@@ -26,6 +26,7 @@ yarn add webpack-merge
 #+END_SRC
 
 * LeetCode Problems
-|  id | problem | file    |
-|-----+---------+---------|
-| 000 | [[https://leetcode.com/problems/two-sum/][Two Sum]] | [[src/js/p000.js][p000.js]] |
+|  id | problem                                                             | file                        |
+|-----+---------------------------------------------------------------------+-----------------------------|
+| 000 | [[https://leetcode.com/problems/two-sum/][Two Sum]]                 | [[src/js/p000.js][p000.js]] |
+| 001 | [[https://leetcode.com/problems/add-two-numbers/][Add Two Numbers]] | [[src/js/p001.js][p001.js]] |
