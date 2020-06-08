@@ -26,5 +26,9 @@
     "dev": "webpack-dev-server --config webpack.dev.js",
     "production": "webpack --config webpack.production.js"
   },
-  "author": "ys64 <yasuwagon@yahoo.co.jp>"
+  "author": "ys64 <yasuwagon@yahoo.co.jp>",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-plugin-vue": "^6.2.2"
+  }
 }
