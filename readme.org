@@ -1,5 +1,8 @@
 * Purpose
-This is my practice of JavaScript using [[https://leetcode.com/][LeetCode]] problems. This project is only for my practice purpose, so that it does not gurantee any quality, efficiency (the speed of runtime execution) nor runnability. Please run it at your own risk.
+This is my practice of JavaScript using [[https://leetcode.com/][LeetCode]] problems. This project is only
+for my practice purpose, so that it does not guarantee any quality, efficiency
+(the speed of runtime execution) nor runnability. Please run it at your own
+risk.
 
 This project is created based on [[https://github.com/ys64/vue-startup][GitHub - ys64/vue-startup]].
 
